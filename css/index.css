@@ -1,0 +1,191 @@
+* {
+  border: 0px;
+  padding: 0px;
+  margin: 0px;
+  font-family: "Fredoka", sans-serif;
+}
+
+.paginaLoad{
+    background-color: red;
+    width: 100vw;
+    height: 100vh;
+    z-index: 10000;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+}
+
+.pageData{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: red;
+}
+
+
+.divicion100{
+    width: 90%;
+}
+
+.loadPoke{
+    margin-top: 1%;
+    text-align: center;
+    margin-bottom: 1%;
+    display: none;
+}
+
+.divicion100 input{
+    width: 60%;
+    /* border: 1px solid black; */
+    text-align: center;
+    padding: 0.5%;
+    border-radius: 15px 15px 15px 15px;
+    background-color: white;
+    color:black;
+}
+
+.BtnbuscaPokemon{
+    border-radius: 15px 15px 15px 15px;
+    color:white;
+    background-color: #120D31
+}
+
+.divicion100 input:focus-visible{
+    border: none;
+    border-color: transparent;
+}
+
+
+.divicion100 button{
+    width: 15%;
+    padding: 0.5%;
+}
+
+
+.divicion40{
+    width: 40%;
+    text-align: center;
+}
+
+.divicion40 button{
+    text-align: center;
+    margin-top: 2%;
+    width: 50%;
+    padding: 0.5%;
+}
+
+.lblBusText{
+    font-size: 1.5em;
+}
+
+.icoBusLbl{
+    font-size: 1.8em;
+}
+
+#imgBusImage{
+    width: 50%;
+}
+
+.imgBusImage{
+    width: 50%;
+}
+
+.stadisticas{
+    max-height: 35vh;
+    overflow-y: auto;
+    margin-bottom: 5%;
+}
+
+.extras .listExtras{
+    text-align: center;
+}
+.listHability ol, .listMoves ol{
+    max-height: 35vh;
+    overflow-y: scroll;
+    overflow-y: auto;
+}
+
+.btnCierraModel{
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .divicion100 button {
+      width: 100%;
+      margin-bottom: 5%;
+    }
+
+    .divicion100 input {
+        width: 100%;
+        margin-bottom: 5%;
+      }
+  }
+
+/* 
+
+.paginaLoad img{
+    width: 50vh;
+}
+
+
+
+   .buscaPokemones{
+        display: none;
+    }  */
+
+
+
+/* 
+.container {
+  width: 90%;
+  height: 90vh;
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-top: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+.container section {
+  width: calc(50% - 4%);
+  padding: 2%;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.container .opSelect {
+    width: calc(100% - 4%);;
+    padding: 2%;
+    align-content: flex-end;
+    align-self: flex-end;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
+.opSelect{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.datos{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 600px) {
+  .container section {
+    width: 100%;
+  }
+} */
